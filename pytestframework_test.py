@@ -1,7 +1,6 @@
 import pyodbc
 import pytest
 from utilities.configuration_pyodbc import *
-
 def test_db():
     conn = getConnection()
     cursor = conn.cursor()

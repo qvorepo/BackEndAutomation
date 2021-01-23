@@ -1,4 +1,4 @@
-from payLoad import *
+from payload import *
 
 import requests
 import json

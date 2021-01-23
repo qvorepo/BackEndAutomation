@@ -1,6 +1,6 @@
 import requests
 from behave import *
-from payLoad import *
+from payload import *
 from utilities.resources import *
 from utilities.configurations import *
 
