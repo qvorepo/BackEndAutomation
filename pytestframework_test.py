@@ -11,6 +11,11 @@ def test_db():
         print(row)
 
     conn.close()
+def test_2():
+    print("Hello World!")
+
+def test_add():
+    print("Hello The World!")
 
 
 
