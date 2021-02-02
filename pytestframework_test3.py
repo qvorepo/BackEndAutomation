@@ -20,7 +20,8 @@ def test_db(cur):
     for row in rows:
         print(row)
 
-@pytest.mark.skipif(sys.version_info > (3, 3), reason='Do not run the skipped decorator test')
+#@pytest.mark.skipif(sys.version_info > (3, 3), reason='Do not run the skipped decorator test')
+@pytest.mark.skip(reason='Do not run, to preserve the baseline cycle counts test data.')
 def test_db(cur):
     cur.execute('select * from Books')
     rows = cur.fetchall()
