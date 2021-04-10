@@ -14,7 +14,7 @@ print(type(dict_courses["languages"]))
 print(dict_courses["languages"][1])
 
 #Parse content present in json file
-with open('C:\\Users\\Mamga\\PycharmProjects\\BackEndAutomation\\course.json') as f:
+with open('C:\\Users\\qtvo9\\PycharmProjects\\BackEndAutomation\\course.json') as f:
     data=json.load(f)
     print(data)
     print(type(data))
@@ -26,7 +26,7 @@ with open('C:\\Users\\Mamga\\PycharmProjects\\BackEndAutomation\\course.json') a
             print(course["price"])
             assert course["price"] == 45
 
-with open('C:\\Users\\Mamga\\PycharmProjects\\BackEndAutomation\\course1.json') as f1:
+with open('C:\\Users\\qtvo9\\PycharmProjects\\BackEndAutomation\\course1.json') as f1:
     data1=json.load(f1)
     print(data == data1) # Compare contents of course with course1.  The result is false.
     assert data == data1
