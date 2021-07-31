@@ -18,7 +18,21 @@ class Shortcuts:
         for age, eye_color, name in zip(ages, eye_colors, names):
             if age <20:
                 print (f'name2: {name}')
-s1 = Shortcuts
 
-s1.zipfunc('')
-s1.escape_quote_func('')
+#   def argsfunc(arg1, arg2, arg3):
+ #      print(arg1, arg2, arg3)
+
+    def kwargsfunc(name, **data):
+        print(data)
+
+s1 = Shortcuts()
+
+s1.zipfunc()
+s1.escape_quote_func()
+args= [1, 2, 3]
+#1.argsfunc(*args)
+
+kwargs= {"arg1": 1, "arg2": 2, "arg3":3 }
+
+#city='Vancouver', state='WA', phone='3609900000'
+s1.kwargsfunc(city='Vancouver', state='WA', phone='3609900000')
