@@ -1,3 +1,5 @@
+""" 10 Python Shortcuts You Need To Know
+https://www.youtube.com/watch?v=CssrFJGH_dU"""
 class Shortcuts:
     def __init__(self):
         pass
