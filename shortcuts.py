@@ -1,5 +1,7 @@
 """ 10 Python Shortcuts You Need To Know
 https://www.youtube.com/watch?v=CssrFJGH_dU"""
+import datetime
+
 class Shortcuts:
     def __init__(self):
         pass
@@ -7,7 +9,7 @@ class Shortcuts:
     def escape_quote_func(self):
         name = 'Quang'
         # x =print('hello I don\'t like single quote at all')
-        x = f' Today\'s date is Saturday, 7/31/2021 and name1 is : {name}'
+        x = f' Today\'s date is {datetime.datetime.now()} and name1 is : {name}'
         print(x)
 
 
